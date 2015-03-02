@@ -4,6 +4,8 @@ return array(
 	'tables' => array(
 		'buildings' => array(
 			'building_id' => array('pk' => true, 'unsigned' => true),
+			'zipcode' => array('null' => false),
+			'country' => array('null' => false),
 			'building_name' => array('null' => false),
 		),
 		'users' => array(
